@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Complete responsive tour and travel agency website design</title>
+        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+       
+        
+      
+
+
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+    <!-- header section starts-->
+
+    <header>
+
+        <div id="menu-bar" class="fa fa-bars"></div>
+
+        <a href="#" class="logo"><span>B</span>eyond <span>B</span>orders<i class="fa fa-paper-plane"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+            
+
+        </nav>
+        <div class="icons">
+            <i class="fas fa-sun" id="theme-btn"></i>
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+              
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+      <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email id">
+            <input type="password" id="password" class="box" placeholder="Enter your password"/>
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password? <a href="#">click here</a></p>
+            <p>need an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts -->
+    
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us,adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/videos-1.mp4"></span>
+            <span class="vid-btn" data-src="images/video-2.mp4"></span>
+            <span class="vid-btn" data-src="images/video-3.mp4"></span>
+            <span class="vid-btn" data-src="images/video-4.mp4"></span>
+            <span class="vid-btn" data-src="images/videos-1.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/videos-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!--book section starts here-->
+     <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/family.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to?</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many?</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+        </div>
+     </section>
+<!--book section ends here-->
+
+<!--PACKAGES section ends here-->
+
+<section class="packages" id="packages">
+
+ <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/5f/f1/caption.jpg?w=1200&h=-1&s=1" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>mumbai</h3>
+        <p>Mumbai is a mix of iconic old-world charm architecture, strikingly modern high rises, cultural and traditional structures, and whatnot.<br>The city is known as the commercial capital of India, but there is more to it than that.<br>Mumbai is all about art, history, culture, food, theatre, cinema, nightlife and a lot more.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹13,820<span>₹14,250</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+    <div class="box">
+        <img src="https://modlangs.gatech.edu/sites/default/files/inline-images/david-edelstein-N4DbvTUDikw-unsplash.jpeg" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>Fujiyoshida </h3>
+        <p>The five-storied Chureito Pagoda in Yamanashi Prefecture is a key part of Japan’s most recognizable landscape—the area around Mount Fuji. You’ve definitely seen it placed in the foreground of Japan guidebooks and Instagram photos, even if you haven’t been there.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹85,475<span>₹87,250</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrPHkLB5--mQrC4XrDrAxirzMKaCGIlQwQA&usqp=CAU" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>San Fransisco</h3>
+        <p>Acclaimed as one of the world's most beautiful bridges, there are many different elements to the Golden Gate Bridge that make it unique.<br>With its tremendous towers, sweeping cables, and great span, the Bridge is a sensory beauty and engineering wonder featuring color, sound and light.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹1,05,475<span>₹1,07,250</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+    <div class="box">
+        <img src="https://localist-images.azureedge.net/photos/39864123870653/square_300@2x/1f6055a10c69bc725e3f4a8717c67dea197bbb54.jpg" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>Istanbul</h3>
+        <p>The Blue Mosque is an iconic historical landmark in Istanbul and one you shouldn't miss. <br>Once inside, you'll discover where the mosque gotten its name – from the thousands of blue handcrafted İznik tiles that adorn the interior walls.<br> The tiles depict traditional Ottoman patterns, flowers, fruit, and more.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹85,175<span>₹87,450</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+    <div class="box">
+        <img src="https://www.toursbylocals.com/images/guides/35/35869/20206030838428.jpg" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>London</h3>
+        <p>Tower Bridge is famous because it's London's most striking bridge.<br>Thanks to its Neo-Gothic architecture and lifting central sections.<br> When it opened, it was the most sophisticated bascule bridge in the world.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹1,45,475<span>₹1,47,250</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+    <div class="box">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/manhattan-skyline-with-empire-state-building-royalty-free-image-960609922-1557777571.jpg?crop=0.66635xw:1xh;center,top&resize=1200:*" alt="">
+      <div class="content">
+        <h3><i class="fa fa-map-marker-alt"></i>New York</h3>
+        <p>Intended to be the world's first 100+ story building, construction of the Empire State Building began on March 17, 1930.<br>Construction was completed in a record-breaking 1 year and 45 days.<br>Beautiful inside and out, the Empire State Building is an architectural marvel beloved across the world.</p>
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">₹1,13,475<span>₹1,18,250</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+</div>
+</section>
+   
+<!--packages section ends here-->
+<!--services section starts here-->
+<section class="services" id="services">
+<h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+
+</h1>
+
+<div class="box-container">
+   
+<div class="box">
+<i class="fas fa-hotel"></i>
+<h3>affordable hotels</h3>
+<p>Our hotel provides you with a restful luxurious sleep experience.Beyond a beautiful,comfortable and very quiet room,expect a very comfortable bed made up with best luxury linens and pillows.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-utensils"></i>
+<h3>food and drinks</h3>
+<p>The food and beverages that include preparing,presenting,and serving food and beverages to the customers on-premise.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-bullhorn"></i>
+<h3>safety guide</h3>
+<p>Travel can be an exciting, eye-opening experience. It's easy to get caught up in the thrill of adventure. But we don't forget about travel security and safety considerations while you're abroad.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-globe-asia"></i>
+<h3>around the world</h3>
+<p>Travelling the world is well within your grasp.Here at Beyond Borders,we believe that greatest lessons are learned through travel.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-plane"></i>
+<h3>fastest travel</h3>
+<p>We provide outdoor recreation activities,car rentals,cruise linea,hotels,railways,package tours,VIP airport lounge access,arranging logistics for luggage and medical items delivery for travellers upon request.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-hiking"></i>
+<h3>adventures</h3>
+<p>If you are an adventure junkie at heart, we include activities such as mountaineering, trekking, bungee jumping, mountain biking, cycling, canoeing, scuba diving, rafting, kayaking, zip-lining, paragliding, hiking, exploring, canyoneering, sandboarding, caving and rock climbing.</p>
+</div>
+</section>
+<!--services section ends here-->
+
+<!--gallery section starts here-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+       <div class="box">
+         <img src="https://www.adweek.com/wp-content/uploads/files/news_article/follow-me-01-2016.png" alt="">
+         <div class="content">
+            <h3>amazing places</h3>
+            <p>Barcelona is a Mediterranean city with excellent beaches and good weather.</p>
+            <a href="#" class="btn">see more</a>
+         </div>
+         </div>
+         <div class="box">
+            <img src="https://www.plannthat.com/wp-content/uploads/2018/07/Instagram-Travel-Accounts.jpeg" alt="">
+            <div class="content">
+               <h3>amazing places</h3>
+               <p>Greece is known for being the cradle of Western Civilization and its ancient history and magnificent temples.</p>
+               <a href="#" class="btn">see more</a>          
+            </div>
+            </div>
+            <div class="box">
+                <img src="https://assets.entrepreneur.com/images/misc/1596720885_img2.JPG" alt="">
+                <div class="content">
+                   <h3>amazing places</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                   <a href="#" class="btn">see more</a>
+                </div>
+                </div>
+             <div class="box">
+                <img src=" https://www.unusualtraveler.com/wp-content/uploads/2021/10/P3221562-735x551.jpg.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. </p>
+                    <a href="#" class="btn">see more</a>
+                    </div>
+                    </div>
+            <div class="box">
+                <img src="http://blog.capertravelindia.com/wp-content/uploads/2017/06/Pic-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+                    </div>
+            <div class="box">
+                <img src="https://cdn.asp.events/CLIENT_Oliver_K_15A4C8AE_5056_B739_54CFDE58102DEF33/sites/Sydney-Build-2020/media/libraries/sydney-build-blog/Sydney%20Opera%20House%20image.png " alt="">
+                    <div class="content">
+                     <h3>amazing places</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                    <a href="#" class="btn">see more</a>
+                     </div>
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR2ZW50dXJlJTIwdHJhdmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+                    <div class="content">
+                     <h3>amazing places</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                     <a href="#" class="btn">see more</a>
+                    </div>
+            </div>
+            <div class="box">
+                <img src="https://www.thetravelgallery.net/image/destinations/97416-kashmir.jpg" alt="">
+                    <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                 <img src="https://www.travel-azerbaijan.org/images/pexels-spencer-davis-4356144.jpg" alt="">
+                    <div class="content">
+                     <h3>amazing places</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto.</p>
+                     <a href="#" class="btn">see more</a>
+                    </div>
+             </div>
+             <div class="box">
+                <img src="https://localist-images.azureedge.net/photos/39864123870653/square_300@2x/1f6055a10c69bc725e3f4a8717c67dea197bbb54.jpg" alt="">
+                   <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                    <a href="#" class="btn">see more</a>
+                   </div>
+            </div>
+            <div class="box">
+                <img src="https://yourteenmag.com/wp-content/uploads/2020/07/summer-safety.jpg.webp" alt="">
+                   <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.cloudreach.com/wp-content/uploads/2021/04/Creating-Custom-Domains-For-GCP-API-Gateway-With-Terraform-1.png" alt="">
+                   <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit tempore earum! Exercitationem architecto</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+             
+    </div>
+</section>
+<!--gallery section ends here-->
+
+
+<!--review section starts here-->
+
+<section class="reviews" id="reviews">
+    <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+                <span>s</span>
+    
+    </h1>
+<div class="swiper mySwiper reviews-slider">
+   <div class="swiper-wrapper">
+     <div class="swiper-slide">
+      <div class="box">
+      <img src="https://images.squarespace-cdn.com/content/v1/5264f7c9e4b0a3247c641860/1645676808475-MUFAINOYPRI5CDJZFZPZ/samyang-135mm-AF_07.jpg?format=1500w" alt="">
+      <h3>Naomi Wu</h3>
+      <p>
+        This is the first time I have EVER used a travel agent as I always book stuff myself, flights, hotel tours, cruises, I usually do it all myself. This experience with TravelOnline has me thinking I will change to an agent for all my future holidays.
+
+Thanks for an awesome, relaxing holiday.
+</p>
+     <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="far fa-star"></i>
+     </div>
+      </div>
+  </div>
+  <div class="swiper-slide">
+    <div class="box">
+    <img src="https://english.cdn.zeenews.com/sites/default/files/2017/11/17/639329-indian-men.jpg" alt="">
+    <h3>Vihaan Malhotra</h3>
+    <p>
+        Very happy with Beyond Borders, used this company a few times now and never had a problem.Everything is clear to understand when booking and follow up correspondence. Very attentive to responding to your emails and questions and would have no hesitation in booking a holiday again through them.</p>
+   <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="far fa-star"></i>
+   </div>
+    </div>
+</div>
+  <div class="swiper-slide">
+    <div class="box">
+    <img src="https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+    <h3>Jenna Stephen</h3>
+    <p>
+        Thank you for assisting us with our trip to New York. We could not fault any part of your service. Our drivers to and from airport were polite and caring and our accommodation was perfect. Quick and easy service. Would definitely book another holiday package.We had the best trip and would certainly use you again. 
+   <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="far fa-star"></i>
+   </div>
+    </div>
+</div>
+<div class="swiper-slide">
+    <div class="box">
+    <img src="https://i0.wp.com/katafilistomiou.gr/wp-content/uploads/2021/12/team1.jpg?fit=500%2C600&ssl=1" alt="">
+    <h3>Xavier Thompson</h3>
+    <p>
+        This was the first holiday we booked online and we could not have been happier with the service we received. Any emails or phone calls were returned within 24 hours. Beyond Borders were easy to book through and easy to deal with, they helped to make our first holiday together perfect, thank you.
+   </p>
+        <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="far fa-star"></i>
+   </div>
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="box">
+    <img src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+    <h3>Aarav Kapoor</h3>
+    <p>
+        Great team at Beyond Borders - it was so easy and effortless to book and everything was managed to the last detail. It included the full package (flights, accommodation, transfers) and a great bunch of other freebies.
+        You are really excellent at what you do so please keep this up !! :)
+       </p>
+   <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="far fa-star"></i>
+   </div>
+    </div>
+</div>
+<div class="swiper-slide">
+    <div class="box">
+    <img src="https://cdn1.matadornetwork.com/blogs/1/2016/03/India4real.jpg" alt="">
+    <h3>Sanskriti Chauhan</h3>
+    <p>
+        Highly recommended. We requested a couple of changes between booking and our trip, nothing was too much trouble. The team was fantastic to deal with and I intend to use their services in the future.Paris was insanely beautiful, better than expected. Thank you Beyond Borders !
+   <div class="stars">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="far fa-star"></i>
+   </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<!--review section ends here-->
+
+<!--contact section starts here-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+</h1>
+
+<div class="row">
+    <div class="image">
+       <img src="images/contact.png" alt="">
+    </div>
+    <form action="">
+     <div class="inputBox">
+       <input type="text" placeholder="name">
+       <input type="email" placeholder="email">
+     </div>
+     <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+       <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+       <input type="submit" class="btn" value="send message">
+
+    </form>
+
+</div>
+
+</section>
+
+<!--contact section ends here-->
+
+<!--brand section starts here-->
+
+<section class="collaboarations">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>l</span>
+        <span>l</span>
+        <span>a</span>
+        <span>b</span>
+        <span>o</span>
+        <span>r</span>
+        <span>a</span>
+        <span>t</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+        <span>s</span>
+        
+</h1>
+
+<div class="swiper mySwiper collaborations-slider">
+    <div class="swiper-wrapper">
+     
+        <div class="swiper-slide"><img src="images/imag-1.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/imag-2.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/imag-4.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/imag-5.png" alt=""></div>
+     
+
+    </div>
+</div>
+
+</section>
+
+<!--brand section ends here-->
+
+<!--footer section starts here-->
+
+<section class="footer">
+    <div class="box-container">
+      <div class="box">
+         <h3>about us</h3>
+         <p>Travel is one of life’s greatest teachers. It pulls you out of your comfort zone and plunges you into the unknown. It reveals a world of cultures to explore and people to meet. And it helps you develop virtues like patience and humility. So whether you explore a new neighbourhood or a new country, Here we are to make your travel easy,comfortable and exciting.</p>
+</div>      
+      <div class="box">
+        <h3>branch locations</h3>
+        <a href="https://www.google.co.in/maps/place/Mysuru,+Karnataka/@12.3106368,76.565649,12z/data=!4m15!1m8!3m7!1s0x3baf70381d572ef9:0x2b89ece8c0f8396d!2sMysuru,+Karnataka!3b1!8m2!3d12.2958104!4d76.6393805!16zL20vMGo2MDM!3m5!1s0x3baf70381d572ef9:0x2b89ece8c0f8396d!8m2!3d12.2958104!4d76.6393805!16zL20vMGo2MDM"><i class="fa-solid fa-location-dot"></i> india</a>
+        <a href="https://www.google.co.in/maps/place/Brooklyn,+NY,+USA/@40.6451594,-74.0850822,11z/data=!3m1!4b1!4m15!1m8!3m7!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2!3m5!1s0x89c24416947c2109:0x82765c7404007886!8m2!3d40.6781784!4d-73.9441579!16zL20vMGNyM2Q"><i class="fa-solid fa-location-dot"></i>  USA</a>
+        <a href="https://www.google.co.in/maps/place/Paris,+France/@48.8584985,2.0599506,11z/data=!4m15!1m8!3m7!1s0xd54a02933785731:0x6bfd3f96c747d9f7!2sFrance!3b1!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj!3m5!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219!16zL20vMDVxdGo"><i class="fa-solid fa-location-dot"></i>  france</a>
+        <a href="https://www.google.co.in/maps/place/Tokyo,+Japan/@35.6679029,139.4537667,11z/data=!3m1!4b1!4m15!1m8!3m7!1s0x34674e0fd77f192f:0xf54275d47c665244!2sJapan!3b1!8m2!3d36.204824!4d138.252924!16zL20vMDNfM2Q!3m5!1s0x60188b857628235d:0xcdd8aef709a2b520!8m2!3d35.6803997!4d139.7690174!16s%2Fg%2F11b6gnvfr8"><i class="fa-solid fa-location-dot"></i>  japan</a>
+        <a href="https://www.google.co.in/maps/place/Colombo,+Sri+Lanka/@6.9218335,79.7861647,12z/data=!3m1!4b1!4m15!1m8!3m7!1s0x3ae2593cf65a1e9d:0xe13da4b400e2d38c!2sSri+Lanka!3b1!8m2!3d7.873054!4d80.771797!16zL20vMDZtXzU!3m5!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!8m2!3d6.9270786!4d79.861243!16zL20vMGZuN3I"><i class="fa-solid fa-location-dot"></i>  sri lanka</a>
+     </div>
+
+     <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fa-solid fa-link"></i>home</a>
+        <a href="#book"><i class="fa-solid fa-link"></i>book</a>
+        <a href="#packages"><i class="fa-solid fa-link"></i>packages</a>
+        <a href="#services"><i class="fa-solid fa-link"></i>services</a>
+        <a href="#gallery"><i class="fa-solid fa-link"></i>gallery</a>
+        <a href="#reviews"><i class="fa-solid fa-link"></i>reviews</a>
+        <a href="#contact"><i class="fa-solid fa-link"></i>contact</a>
+     </div>
+ 
+     <div class="box">
+        <h3>follow us</h3>
+        <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+        
+    </div>
+
+    </div>
+
+    <h1 class="credit">created by <span> Keerthana</span><br><br> <i class="fa-regular fa-copyright"></i>all rights reserved</h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer section ends here-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--custom js file link -->
+    <script src="js/script.js"></script>
+    </body>
+</html>
